@@ -1,4 +1,4 @@
-@import '../variables';
+@import './variables';
 
 $prefix: $antPrefix + -pagination;
 $disabledClasses: '.#{$prefix}-disabled a, .#{$prefix}-disabled:hover a, .#{$prefix}-disabled:focus a, .#{$prefix}-disabled .#{$prefix}-item-link, .#{$prefix}-disabled:hover .#{$prefix}-item-link, .#{$prefix}-disabled:focus .#{$prefix}-item-link';
