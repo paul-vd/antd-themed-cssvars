@@ -1,0 +1,27 @@
+@import '../variables.scss';
+
+.ag {
+  &-row {
+    &.row-error,
+    &.row-cell-error .cell-error {
+      background: $errorA08;
+    }
+  }
+  &-grid-container {
+    &.status-bar-hidden .ag-status-bar {
+      display: none;
+    }
+    .ag-pinned-left-cols-container {
+      .ag-row {
+        background-color: $contrastBackground;
+        &:hover {
+          background-color: $itemActiveBackground;
+        }
+      }
+    }
+    background-color: $componentBackground;
+  }
+  &-header {
+    background-color: $contrastBackground;
+  }
+}

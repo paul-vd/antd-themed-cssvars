@@ -1,0 +1,12 @@
+@import '../variables';
+
+.PhoneInputInput {
+  border: none;
+  background: transparent;
+}
+.PhoneInputCountryIconImg {
+  margin-top: -10px;
+}
+:root {
+  --PhoneInput-color--focus: #{$primaryColor};
+}
