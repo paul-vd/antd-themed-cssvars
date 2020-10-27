@@ -83,7 +83,6 @@ $prefix: $antPrefix + -select;
         }
       }
     }
-    @extend %disabled;
   }
   &-item-option-active:not(.#{$prefix}-item-option-disabled) {
     background-color: $itemHoverBackground;
